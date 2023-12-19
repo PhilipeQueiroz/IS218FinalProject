@@ -12,7 +12,7 @@ const PrivacyPolicy = () => {
                     <h2 className="text-lg font-bold mt-4">1. Information We Collect</h2>
                     <p>1.1 <strong>Personal Data:</strong> While using our site, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you.
                      This may include, but is not limited to, your email address, name, phone number, and postal address.</p>
-                    <p>1.2 <strong>Usage Data:</strong>We may also collect information on how the service is accessed and used. This Usage Data may include information such as your computer's IP address,
+                    <p>1.2 <strong>Usage Data:</strong>We may also collect information on how the service is accessed and used. This Usage Data may include information such as your computers IP address,
                      browser type, browser version, the pages of our service that you visit, the time and date of your visit, the time spent on those pages, and other diagnostic data.</p>
 
                     <h2 className="text-lg font-bold mt-4">2. Google Analytics</h2>
