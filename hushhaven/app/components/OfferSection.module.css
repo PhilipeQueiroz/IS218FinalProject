@@ -1,0 +1,28 @@
+/* OfferSection.module.css */
+.offerSectionStyle {
+    background-color: #F8F0C5; /* Adjusted color to match the image */
+    font-size: 2rem; /* Adjusted font size to be more in line with the picture */
+    text-align: center;
+    padding: 40px 0; /* Increased padding to match the image */
+    position: relative; /* For absolute positioning of the button */
+    font-family: Quattrocento; 
+  }
+  
+  /* Style for the button - adjust as needed */
+  .signUpButton {
+    background-color: #D9D5F4; /* Transparent background */
+    border: 2px solid #9793D3; /* Solid border */
+    color: #000; /* Text color */
+    margin-top: 20px; /* Spacing between text and button */
+    padding: 10px 40px; /* Padding inside the button */
+    border-radius: 20px; /* Rounded corners */
+    font-weight: bold; /* Bold font weight */
+    font-size: 1rem; /* Font size for the button text */
+    cursor: pointer; /* Cursor for button hover */
+    transition: all 0.3s ease-in-out; /* Transition for hover effects */
+  }
+  
+  .signUpButton:hover {
+    background-color: #000; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+  }

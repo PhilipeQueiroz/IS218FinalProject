@@ -1,0 +1,63 @@
+.herostyle {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-image: 
+    linear-gradient(
+      179deg, 
+      #F8F0C5 5.22%, 
+      rgba(232, 226, 221, 0.65) 13.22%, 
+      rgba(217, 213, 244, 0.22) 19.08%, 
+      rgba(224, 219, 234, 0.26) 83.95%, 
+      rgba(248, 240, 197, 0.51) 93.71%, 
+      rgba(247, 233, 199, 0.72) 97.75%
+    ),
+    url('../images/HushHavenHeroPic.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    height: 100vh; /* Full viewport height, adjust as necessary */
+    font-family: Quattrocento; 
+}
+
+.textoverlay {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: Black; /* Assuming white text */
+    
+}
+
+.textShadow {
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); /* Shadow for text */
+}
+
+.headingXL {
+    font-size: 4rem; /* Larger font size for main heading */
+    line-height: 1.2;
+    font-weight: bold; /* Bold font weight */
+    margin: 0;
+}
+
+.herobutton {
+    background-color: #F8F0C5; /* Amber button background */
+    color: black; /* Button text color */
+    border-radius: 83px; /* Rounded corners */
+    padding: 1rem 2rem; /* Button padding */
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); /* Button shadow */
+    border: none; /* No border */
+    font-size: 1rem; /* Button text size */
+    font-weight: bold; /* Button text weight */
+    position: absolute;
+    top: 150%; /* Adjust as necessary */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer; /* Cursor for button hover */
+    transition: background-color 0.3s ease-in-out; /* Transition for hover effect */
+}
+
+.herobutton:hover {
+    background-color: #d0c897; /* Slightly darker color on hover */
+}
