@@ -10,7 +10,7 @@ export async function POST(req, res) {
   const MailchimpServer = process.env.MAILCHIMP_API_SERVER;
   const MailchimpAudience = process.env.MAILCHIMP_AUDIENCE_ID;
 
-  const customUrl = `https://${MailchimpServer}.api.mailchimp.com/3.0/lists/${MailchimpAudience}/members`;
+  const customUrl = `https://${MailchimpServer}.api.mailchimp.com/lists/${MailchimpAudience}/members`;
 
   const response = await fetch(customUrl, {
     method: "POST",
