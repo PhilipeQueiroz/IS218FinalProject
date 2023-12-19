@@ -7,7 +7,7 @@ export default function Testimonials() {
       <h2 className={styles.mainTitle}>Read What Others Have To Say</h2>
       <div className={styles.testimonialContainer}>
         <div className={styles.testimonialBox}>
-          <p className={styles.testimonialText}>Hush Haven towels are soft, durable, and a staple in our home. Perfect for my toddler's sensitive skin and our busy lifestyle!</p>
+          <p className={styles.testimonialText}>Hush Haven towels are soft, durable, and a staple in our home. Perfect for my toddler who has sensitive skin and our busy lifestyle!</p>
           <p className={styles.author}>EMMA W.</p>
           <div className={styles.stars}>★★★★★</div>
         </div>
