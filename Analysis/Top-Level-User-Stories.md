@@ -1,9 +1,9 @@
 ##Awareness Stage
 User Story 1:
-Action: Laura encounters a sponsored Facebook ad featuring your eco-friendly baby towels with positive testimonials from other parents.
-Acceptance: Intrigued, Laura likes your brand's Facebook page for future updates.
+- **Action**: Laura encounters a sponsored Facebook ad featuring your eco-friendly baby towels with positive testimonials from other parents.
+- **Acceptance**: Intrigued, Laura likes your brand's Facebook page for future updates.
 
-User Story 2:
+##User Story 2:
 Action: Laura watches a YouTube video review by a popular mommy vlogger who praises the softness and durability of your towels.
 Acceptance: Motivated by the review, Laura visits your website for the first time.
 
