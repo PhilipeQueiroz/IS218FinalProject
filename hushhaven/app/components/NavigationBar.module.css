@@ -1,0 +1,27 @@
+.navbarstyle {
+    background-color: #F8F0C5;
+    text-align: center;
+    font-family: Quattrocento; 
+}
+
+.navbarlist {
+    width: 1024px;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbaritems {
+    margin: 0 100px;
+}
+
+.logocontainer {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/HushhavenLogo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
