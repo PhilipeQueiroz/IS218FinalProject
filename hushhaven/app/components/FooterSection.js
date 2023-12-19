@@ -5,11 +5,9 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.navSection}>
-        <h4 className={styles.navHeader}>Explore</h4>
-        <a href="/home" className={styles.footerLink}>Home</a>
+        <h4 className={styles.navHeader}>Customer Service</h4>
+        <a href="/Privacy" className={styles.footerLink}>Privacy Policy</a>
         <a href="/about" className={styles.footerLink}>About</a>
-        <a href="/shop" className={styles.footerLink}>Shop</a>
-        <a href="/reviews" className={styles.footerLink}>Reviews</a>
       </div>
 
       <div className={styles.socialSection}>
