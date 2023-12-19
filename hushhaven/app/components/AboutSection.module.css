@@ -1,0 +1,40 @@
+.aboutSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4; /* Adjust the color to match your design */
+    padding: 50px;
+    font-family: Quattrocento;
+    }
+
+.logoContainer {
+    text-align: left;
+    margin-right: 50px; /* Space between logo and about text */
+  }
+  
+  .companyName {
+    font-size: 32px; /* Increased size of the logo text */
+    font-weight: bold; /* Make it bold, if desired */
+    margin-bottom: 16px;
+  }
+  
+  .logo {
+    width: 150px; /* Increased size of the logo */
+    height: auto;
+    margin-bottom: 16px; /* Space below the logo */
+  }
+  
+  .aboutContainer {
+    text-align: right; /* Align the about text to the right */
+    max-width: 600px; /* Adjust as needed for your design */
+  }
+  
+  .aboutTitle {
+    font-size: 32px; /* Increased size of the about title */
+    margin-bottom: 16px;
+  }
+  
+  .aboutText {
+    font-size: 20px; /* Increased size of the about text */
+    font-style: italic;
+  }

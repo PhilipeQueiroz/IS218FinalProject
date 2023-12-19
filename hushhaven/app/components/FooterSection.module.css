@@ -1,0 +1,76 @@
+/* Footer.module.css */
+.footer {
+    background-color: #f7f2f8;
+    color: #333;
+    padding: 40px;
+    font-family: Quattrocento; 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .navSection, .socialSection, .newsletterSection {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .navHeader, .socialHeader, .newsletterHeader {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footerLink {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 5px;
+    transition: color 0.3s;
+  }
+  
+  .footerLink:hover {
+    color: #0066cc;
+  }
+  
+  .newsletterForm {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .newsletterInput {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .newsletterButton {
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .footerBottom {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .copyRightText {
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navSection, .socialSection, .newsletterSection {
+      min-width: 100%;
+      text-align: center;
+    }
+  }
